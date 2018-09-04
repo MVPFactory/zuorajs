@@ -6,7 +6,12 @@
   "scripts": {
     "test": "node test/main.js"
   },
-  "keywords": ["zuora", "rest", "api", "nodejs"],
+  "keywords": [
+    "zuora",
+    "rest",
+    "api",
+    "nodejs"
+  ],
   "author": "David Sciamma <dsciamma@sierrawireless.com>",
   "license": "MIT",
   "dependencies": {
@@ -27,10 +32,18 @@
       "node": true,
       "es6": true
     },
-    "extends": ["eslint:recommended"],
+    "extends": [
+      "eslint:recommended"
+    ],
     "rules": {
-      "linebreak-style": ["error", "unix"],
-      "max-params": ["warn", 3]
+      "linebreak-style": [
+        "error",
+        "unix"
+      ],
+      "max-params": [
+        "warn",
+        3
+      ]
     }
   }
 }
